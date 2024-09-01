@@ -88,7 +88,7 @@ const Day = sequelize.define('Day', {
         allowNull: true
     },
     photoUrl: {
-        type: DataTypes.STRING,
+        type: DataTypes.JSON, // Passo Array, quindi JSON
         allowNull: true
     },
     TripId: { //  chiave esterna
