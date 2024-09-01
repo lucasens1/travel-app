@@ -1,0 +1,23 @@
+@import "bootstrap/scss/bootstrap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.ms_vh100 {
+  height: 100vh;
+}
+
+.ms_intro-cont {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  background-color: #e9ecef;
+}
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

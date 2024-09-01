@@ -1,0 +1,26 @@
+{
+  "name": "travel-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tomtom-international/web-sdk-maps": "^6.25.0",
+    "@tomtom-international/web-sdk-services": "^6.25.0",
+    "axios": "^1.7.4",
+    "bootstrap": "^5.3.3",
+    "swiper": "^11.1.9",
+    "vue": "^3.4.37",
+    "vue-cal": "^4.9.0",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "sass": "^1.77.8",
+    "vite": "^5.4.1"
+  }
+}
