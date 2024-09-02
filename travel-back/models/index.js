@@ -4,7 +4,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 const sequelize = new Sequelize('travelapp', 'root', 'root', {
     host: 'localhost',
     dialect: 'mysql',
-    port: 8889
+    port: 3306
 });
 
 // User -> Tabella Users
